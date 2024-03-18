@@ -10,7 +10,7 @@ try: api_hash = os.environ.get("api_hash", "0719ddda05469068f41098d4a7ece514")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
 try: bot_token = os.environ.get("bot_token", "7167924746:AAH20XoLWn5DPA-I5v0wYLCmgTQLtLl0l-I")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "`{file_name}` Downloaded by:@GPSCaspirant1")
+try: custom_caption = os.environ.get("custom_caption", "`{file_name}` Downloaded by:@Z0R0O7")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
@@ -20,7 +20,7 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@GPSCaspirant1</b>"""
+<b>@Z0R0O7</b>"""
 
 about_message = """
 <b>• Name : <a href=https://t.me/VJ_Botz>Zoroislost</a></b>
