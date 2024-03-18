@@ -10,7 +10,7 @@ try: api_hash = os.environ.get("api_hash", "0719ddda05469068f41098d4a7ece514")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
 try: bot_token = os.environ.get("bot_token", "7167924746:AAH20XoLWn5DPA-I5v0wYLCmgTQLtLl0l-I")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "`{file_name}` Downloaded by: @GPSCaspirant1")
+try: custom_caption = os.environ.get("custom_caption", "`{file_name}` Downloaded by:@GPSCaspirant1")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
@@ -80,7 +80,7 @@ def start_buttons(bot, update):
    pyrogram.types.InlineKeyboardButton("Updates", url="t.me/VJ_Botz"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
-   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.zoroislost}?startchannel=true")
+   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.Zoroislost}?startchannel=true")
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
